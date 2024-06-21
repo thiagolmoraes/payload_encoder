@@ -11,4 +11,10 @@ You can use this program to encode any string into different formats.
 To encode a simple string:
 
 ```bash
-payload_encoder "your string here"
+payload_encoder "<script>alert(1)</script>" 
+```
+
+Direct from cargo run
+```bash
+cargo run -- "<script>alert(1)</script>" 
+```
