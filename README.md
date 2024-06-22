@@ -22,10 +22,10 @@ Available formats:
 To encode a simple string:
 
 ```bash
-payload_encoder "<script>alert(1)</script> --format url" 
+payload_encoder "<script>alert(1)</script>" --format url
 ```
 
 Direct from cargo run
 ```bash
-cargo run -- "<script>alert(1)</script> --format url" 
+cargo run -- "<script>alert(1)</script>" --format url 
 ```
