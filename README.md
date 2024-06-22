@@ -7,14 +7,14 @@ This project allows you to encode an input string into various formats, includin
 You can use this program to encode any string into different formats.
 
 Available formats:
-    - url
-    - double-url
-    - base64
-    - double-base64
-    - hex
-    - octal
-    - html-escape
-    - binary
+    * url
+    * double-url
+    * base64
+    * double-base64
+    * hex
+    * octal
+    * html-escape
+    * binary
 
 
 ### Usage Examples
