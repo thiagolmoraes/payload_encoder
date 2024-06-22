@@ -6,15 +6,26 @@ This project allows you to encode an input string into various formats, includin
 
 You can use this program to encode any string into different formats.
 
+Available formats:
+    - url
+    - double-url
+    - base64
+    - double-base64
+    - hex
+    - octal
+    - html-escape
+    - binary
+
+
 ### Usage Examples
 
 To encode a simple string:
 
 ```bash
-payload_encoder "<script>alert(1)</script>" 
+payload_encoder "<script>alert(1)</script> --format url" 
 ```
 
 Direct from cargo run
 ```bash
-cargo run -- "<script>alert(1)</script>" 
+cargo run -- "<script>alert(1)</script> --format url" 
 ```
